@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background Image */
+body {
+    background-image: url('/static/library.jpg'); /* Replace with correct path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #f0e6d2; /* Soft beige to match library tones */
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark transparent overlay */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffbf00; /* Gold-like color for contrast */
+    font-size: 3em;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0e6d2;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Section Styling */
+section {
+    background-color: rgba(255, 255, 255, 0.9); /* Light transparent background */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    text-align: center;
+}
+
+section h2 {
+    color: #8b4513; /* Warm brown for section headers */
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #4d2600; /* Darker brown text */
+}
+
+/* Chatbot Iframe */
+iframe {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer Styling */
+footer {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark transparent footer */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    color: #f0e6d2;
+}
